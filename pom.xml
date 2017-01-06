@@ -23,19 +23,12 @@
         <plugin.surefire.report.version>2.9</plugin.surefire.report.version>
         <plugin.jxr.version>2.3</plugin.jxr.version>
         <plugin.pmd.version>3.0.1</plugin.pmd.version>
-        <plugin.pmd.ruleset>${repositorio.releases.url}/ec/gob/sri/resources/reglas-pmd-sri/2.1/reglas-pmd-sri-2.1.xml</plugin.pmd.ruleset>
         <plugin.pmd.exclude>${project.parent.basedir}/src/main/resources/exclude-pmd.properties</plugin.pmd.exclude>
         <plugin.findbugs.version>2.5</plugin.findbugs.version>
         <javaee6.with.tools.version>1.0.7.Final</javaee6.with.tools.version>
-        <repositorio.snapshots.url>http://sriarqic02:8081/nexus/content/repositories/snapshots/</repositorio.snapshots.url>
-        <issue.management.url>http://10.21.50.255:8000/estandares-desarrollo/report/3</issue.management.url>
-        <scm.url>https://10.2.4.21/proyecto-base/trunk</scm.url>
-        <scm.connection>scm:svn:https://10.2.4.21/proyecto-base/trunk</scm.connection>
-        <scm.developer.connection>scm:svn:https://10.2.4.21/proyecto-base/trunk</scm.developer.connection>
-        <csi.management.url>http://10.21.50.255:8080/job/proyecto-base-cr</csi.management.url>
         <developer.id>excz010715</developer.id>
         <developer.name>EDU</developer.name>
-        <developer.email>exconrado@sri.gob.ec</developer.email>
+        <developer.email>exconrado@gmail.com</developer.email>
         <developer.role>desarrollador</developer.role>
         <!-- Security Domain -->
         <persistence-unit-name></persistence-unit-name>
@@ -64,8 +57,8 @@
             <id>${developer.id}</id>
             <name>${developer.name}</name>
             <email>${developer.email}</email>
-            <organization>Servicio de Rentas Internas</organization>
-            <organizationUrl>www.sri.gob.ec</organizationUrl>
+            <organization>Outlook</organization>
+            <organizationUrl>Outlook</organizationUrl>
             <roles>
                 <role>${developer.role}</role>
             </roles>
@@ -247,12 +240,7 @@
 				<version>1.0-SNAPSHOT</version>
 				<type>ejb</type>
 			</dependency>
-			<!--<dependency>
-				<groupId>ec.gob.sri.inteligenciaTributaria</groupId>
-				<artifactId>inteligenciaTributaria-api</artifactId>
-				<version>${project.proyecto.base.version}</version>
-				<type>ejb</type>
-			</dependency>-->
+			
 			<dependency>
 				<groupId>ec.com.live.economia</groupId>
 				<artifactId>economia-web</artifactId>
@@ -265,36 +253,7 @@
 				<version>1.0-SNAPSHOT</version>
 				<type>jar</type>
 			</dependency>
-                       <!--
-			<dependency>
-				<groupId>ec.gov.sri.grupostrabajo</groupId>
-				<artifactId>genGruposTrabajo-core</artifactId>
-				<version>2.0.3</version>
-				<scope>provided</scope>
-			</dependency>
-			 
-			<dependency>
-				<groupId>ec.gov.sri.plantillas</groupId>
-				<artifactId>genPlantillasDocumentos-core</artifactId>
-				<version>1.1.0</version>
-				<scope>provided</scope>
-			</dependency>
-
-			<dependency>
-				<groupId>ec.gob.sri</groupId>
-				<artifactId>ruc</artifactId>
-				<version>3.2</version>
-				<scope>provided</scope>
-			</dependency>
-            
-			<dependency>
-				<groupId>ec.gob.sri</groupId>
-				<artifactId>persona</artifactId>
-				<version>1.1.9</version>
-				<scope>provided</scope>
-			</dependency>
-             -->
-
+                       
 
 
 
